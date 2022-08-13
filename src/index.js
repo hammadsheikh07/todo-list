@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import {  ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from "@mui/material/styles";
 import reportWebVitals from "./reportWebVitals";
 import theme from "./Theme";
 import Footer from "./components/Footer/Footer";
@@ -10,9 +10,11 @@ import Footer from "./components/Footer/Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <ThemeProvider theme={theme}>
       <App />
-      <Footer/>
+      <Footer />
     </ThemeProvider>
   </React.StrictMode>
 );

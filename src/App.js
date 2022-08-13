@@ -2,6 +2,7 @@ import React from "react";
 import { Typography, TextField, Button } from "@mui/material";
 import { Box } from "@mui/system";
 import { useState, useRef } from "react";
+import "./index.css";
 const App = () => {
   const [newWork, changeWork] = useState("");
   const [containerOne, changeOne] = useState([]);
@@ -36,7 +37,6 @@ const App = () => {
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
-        sx={{ backgroundColor: "#f2f2f2",width:"100%" }}
       >
         <Box
           mt={3}

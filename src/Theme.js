@@ -8,7 +8,12 @@ const theme = createTheme({
       color:"#000000"
     },
     body1:{
-      color:"#1A1A1A99"
+      fontSize:"14px"
+    },
+    body2:
+    {
+        fontSize:"14px",
+       
     },
     h1:
     {

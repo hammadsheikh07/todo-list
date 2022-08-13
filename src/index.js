@@ -5,12 +5,14 @@ import App from "./App";
 import {  ThemeProvider } from '@mui/material/styles';
 import reportWebVitals from "./reportWebVitals";
 import theme from "./Theme";
+import Footer from "./components/Footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <App />
+      <Footer/>
     </ThemeProvider>
   </React.StrictMode>
 );

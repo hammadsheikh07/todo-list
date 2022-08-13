@@ -7,7 +7,7 @@ Now It's upto you to define which section is for what purpose :)).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Install Dependencies
+## Install Dependencies
 
 Use `npm i` to install all required dependencies
 

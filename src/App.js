@@ -63,7 +63,7 @@ const App = () => {
                   multiline
                   maxRows={3}
                   value={newWork}
-                  sx={{ minWidth: "300px", backgroundColor: "white" }}
+                  sx={{ maxWidth: "300px", backgroundColor: "white" }}
                   label="Enter Your Work"
                 ></TextField>
                 <Button sx={{ ml: 2 }} variant="contained" type="submit">
@@ -201,6 +201,7 @@ const App = () => {
             </Box>
           </Box>
         </Box>
+        
       </Box>
     </div>
   );

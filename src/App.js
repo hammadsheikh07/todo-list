@@ -63,7 +63,7 @@ const App = () => {
                   multiline
                   maxRows={3}
                   value={newWork}
-                  sx={{ maxWidth: "300px", backgroundColor: "white" }}
+                  sx={{ maxWidth: "280px", backgroundColor: "white",fontSize:"6px" }}
                   label="Enter Your Work"
                 ></TextField>
                 <Button sx={{ ml: 2 }} variant="contained" type="submit">
@@ -108,7 +108,7 @@ const App = () => {
                   }}
                 >
                   <Box>
-                    <Typography variant="body1">{entry.data}</Typography>
+                    <Typography variant="body2">{entry.data}</Typography>
                   </Box>
                   <Box>
                     <Button>&#60;</Button>
@@ -147,7 +147,7 @@ const App = () => {
                   }}
                 >
                   <Box>
-                    <Typography variant="body1">{entry.data}</Typography>
+                    <Typography variant="body2">{entry.data}</Typography>
                   </Box>
                   <Box>
                     <Button onClick={(e) => handleTwoleft(entry.data, index)}>
@@ -188,7 +188,7 @@ const App = () => {
                   }}
                 >
                   <Box>
-                    <Typography variant="body1">{entry.data}</Typography>
+                    <Typography variant="body2">{entry.data}</Typography>
                   </Box>
                   <Box>
                     <Button onClick={(e) => handleThreeleft(entry.data, index)}>

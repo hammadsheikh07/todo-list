@@ -1,6 +1,14 @@
+#Todo List with React and MUI
+It's a todo list with 3 different sections, You can make your task switch between any of three sections.
+Now It's upto you to define which section is for what purpose :)).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##Install Dependencies
+
+Use `npm i` to install all required dependencies
 
 ## Available Scripts
 

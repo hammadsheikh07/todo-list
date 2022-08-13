@@ -86,7 +86,7 @@ const App = () => {
               mt={4}
               px={3}
               sx={{
-                width: "330px",
+                width: "300px",
                 height: "350px",
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
@@ -125,7 +125,7 @@ const App = () => {
               mt={4}
               px={3}
               sx={{
-                width: "330px",
+                width: "300px",
                 height: "350px",
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
@@ -166,7 +166,7 @@ const App = () => {
               px={3}
               mt={4}
               sx={{
-                width: "330px",
+                width: "300px",
                 height: "350px",
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",

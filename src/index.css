@@ -4,5 +4,6 @@ body {
   font-family: -apple-system,'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 

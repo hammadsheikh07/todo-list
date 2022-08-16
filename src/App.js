@@ -11,7 +11,8 @@ const App = () => {
   const ref = useRef();
   const addwork = (e) => {
     e.preventDefault();
-    changeOne((containerOne) => [...containerOne, { data: newWork }]);
+    if (newWork !== "")
+      changeOne((containerOne) => [...containerOne, { data: newWork }]);
     changeWork("");
   };
   const handleOneright = (data, index) => {
@@ -63,7 +64,11 @@ const App = () => {
                   multiline
                   maxRows={3}
                   value={newWork}
-                  sx={{ maxWidth: "280px", backgroundColor: "white",fontSize:"6px" }}
+                  sx={{
+                    maxWidth: "280px",
+                    backgroundColor: "white",
+                    fontSize: "6px",
+                  }}
                   label="Enter Your Work"
                 ></TextField>
                 <Button sx={{ ml: 2 }} variant="contained" type="submit">
@@ -201,7 +206,6 @@ const App = () => {
             </Box>
           </Box>
         </Box>
-        
       </Box>
     </div>
   );

@@ -96,7 +96,7 @@ const App = () => {
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
-                overflowY: "scroll",
+                overflowY: "auto",
               }}
             >
               {containerOne.map((entry, index) => (
@@ -135,7 +135,7 @@ const App = () => {
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
-                overflowY: "scroll",
+                overflowY: "auto",
               }}
             >
               {containerTwo.map((entry, index) => (
@@ -176,7 +176,7 @@ const App = () => {
                 backgroundColor: "white",
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
-                overflowY: "scroll",
+                overflowY: "auto",
               }}
             >
               {containerThree.map((entry, index) => (

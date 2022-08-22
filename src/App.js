@@ -8,6 +8,12 @@ const App = () => {
   const [containerOne, changeOne] = useState([]);
   const [containerTwo, changeTwo] = useState([]);
   const [containerThree, changeThree] = useState([]);
+  // let outerdivstyle= "width: '300px',
+  // height: '350px',
+  // backgroundColor: 'white',
+  // boxShadow: '0 0 10px rgba(0,0,0,0.33)',
+  // borderRadius: '10px',
+  // overflowY: 'auto',"
   const ref = useRef();
   const addwork = (e) => {
     e.preventDefault();
@@ -97,6 +103,7 @@ const App = () => {
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
                 overflowY: "auto",
+                overflowX:"hidden"
               }}
             >
               {containerOne.map((entry, index) => (
@@ -110,12 +117,13 @@ const App = () => {
                     backgroundColor: "#f2f2f2",
                     boxShadow: "0 0 10px rgba(1, 51, 125,0.22)",
                     borderRadius: "3px",
+                    overflowX:"hidden"
                   }}
                 >
                   <Box>
                     <Typography variant="body2">{entry.data}</Typography>
                   </Box>
-                  <Box>
+                  <Box display="flex">
                     <Button>&#60;</Button>
                     <Button onClick={(e) => handleOneright(entry.data, index)}>
                       &#62;
@@ -136,6 +144,7 @@ const App = () => {
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
                 overflowY: "auto",
+                overflowX:"hidden"
               }}
             >
               {containerTwo.map((entry, index) => (
@@ -154,7 +163,7 @@ const App = () => {
                   <Box>
                     <Typography variant="body2">{entry.data}</Typography>
                   </Box>
-                  <Box>
+                  <Box display="flex">
                     <Button onClick={(e) => handleTwoleft(entry.data, index)}>
                       &#60;
                     </Button>
@@ -177,6 +186,7 @@ const App = () => {
                 boxShadow: "0 0 10px rgba(0,0,0,0.33)",
                 borderRadius: "10px",
                 overflowY: "auto",
+                overflowX:"hidden"
               }}
             >
               {containerThree.map((entry, index) => (
@@ -195,7 +205,7 @@ const App = () => {
                   <Box>
                     <Typography variant="body2">{entry.data}</Typography>
                   </Box>
-                  <Box>
+                  <Box display="flex">
                     <Button onClick={(e) => handleThreeleft(entry.data, index)}>
                       &#60;
                     </Button>

@@ -5,7 +5,7 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   typography: {
     allVariants: {
-      fontFamily: "Poppins",
+      fontFamily: "consolas",
       color:"#000000"
     },
     body1:{
